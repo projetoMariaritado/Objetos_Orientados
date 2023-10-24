@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientação a objetos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        
+</head>
+<body>
+    <div class="nav1">
+        <nav class="navbar">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Objeto orientado</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="texto">
+        <h1>O que é?</h1>
+             <p>Paradigmas de programação existem para responder questões que surgem justamente do processo de pensar na abordagem que será utilizada para a solução de problemas.</p>
+             <p>Enquanto uma linguagem de programação é a implementação de fato de uma ferramenta para desenvolver um software, o paradigma de programação é o modelo conceitual e o conjunto de padrões e metodologias que serão aplicadas no uso de uma linguagem para o desenvolvimento de um software.</p>
+             <p>A POO é um paradigma de programação que se propõe a abordar o design de um sistema em termos de entidades, os objetos, e relacionamentos entre essas entidades. </p>
+        <h1>Objetos e Classes</h1>
+             <p>Objetos são instâncias de classes Objetos às vezes correspondem a coisas encontradas no mundo real. Por exemplo, um programa de gráficos pode ter objetos como "círculo", "quadrado", "menu". Um sistema de compras online pode ter objetos como "carrinho de compras", "cliente" e "produto".</p>
+             <p>Classes são as definições para o formato de dados e procedimentos disponíveis para um dado tipo ou classe de objeto; também podem conter dados e procedimentos (conhecidos como métodos de classe) em si mesmas, ou seja, classes contêm os membros de dados e funções membros.</p>
+    </div>
+
+    <br>
+    
+
+    <div class="container">
+        <h1>Exemplo</h1>
+        <form id="personForm">
+            <input type="text" id="firstName" class="form-control" class="form-label" placeholder="Nome">
+            <br>
+            <input type="text" id="lastName" class="form-control" class="form-label" placeholder="Sobrenome">
+            <br>
+            <input type="text" id="language" class="form-control" class="form-label" placeholder="Personalidade">
+            <br>
+            <button type="submit" class="btn btn-success">Enviar</button>
+            <br>
+        </form> 
+      
+
+        <br>
+        <div class="display-details">
+            <p>Resposta</p>
+            <p>Nome: <span id="displayFirstName"></span></p>
+            <p>Sobrenome: <span id="displayLastName"></span></p>
+            <p>Personalidade: <span id="displayLanguage"></span></p>
+        </div>
+    </div> 
+
+
+    <footer class="footer">
+        Maria Rita
+    </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
